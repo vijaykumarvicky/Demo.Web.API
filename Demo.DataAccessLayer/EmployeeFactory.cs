@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Demo.DataAccessLayer
 {
@@ -32,11 +30,9 @@ namespace Demo.DataAccessLayer
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
-
 
         /// <summary>
         /// This method is used for get employee by id
@@ -53,7 +49,6 @@ namespace Demo.DataAccessLayer
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }

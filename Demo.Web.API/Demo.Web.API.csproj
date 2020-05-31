@@ -54,6 +54,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -103,6 +104,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.BussinessLayer\Demo.BussinessLayer.csproj">
+      <Project>{1184BF70-B5DB-4B8A-8D97-93E891931872}</Project>
+      <Name>Demo.BussinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo.BussinessObject\Demo.BussinessObject.csproj">
+      <Project>{0797BF61-A027-4E0F-8217-BCB38620AD49}</Project>
+      <Name>Demo.BussinessObject</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
